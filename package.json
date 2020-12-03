@@ -1,14 +1,15 @@
 {
     "name": "note-taker",
     "version": "1.0.0",
-    "description": "",
+    "description": "An application to track user notes",
     "main": "server.js",
     "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server.js"
     },
-    "author": "",
+    "author": "David Gibbens",
     "license": "ISC",
     "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mysql": "^2.18.1"
     }
 }

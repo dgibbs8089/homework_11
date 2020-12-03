@@ -11,8 +11,8 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 // Include js files
-require("/routes/apiRoutes")(app);
-require("/routes/htmlRoutes")(app);
+require("/homework_11/routes/apiRoutes")(app);
+require("/homework_11/routes/htmlRoutes")(app);
 
 // Use public folder
 app.use(express.static("public"));
